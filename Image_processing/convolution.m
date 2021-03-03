@@ -1,0 +1,9 @@
+clear all
+close all
+I=[3 1 1 1 1 1;...
+1 1 1 1 1 1;...
+1 1 1 1 1 1;...
+1 1 1 1 1 1]
+H=ones(3)/9
+Ic1=conv2(I,H)
+Ic2=conv2(I,H,'same')
